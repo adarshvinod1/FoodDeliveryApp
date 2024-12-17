@@ -1,0 +1,207 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:background="#FF5722"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="45sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Delivery"
+            android:textColor="#FF5722"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="45sp"
+            android:layout_marginLeft="10sp"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search for dishes or restaurants"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginTop="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Featured Dishes"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="10sp"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/bur" />
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/bu" />
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/bu5" />
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/bu3" />
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/bu4" />
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/ju6" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Bugers"
+           android:background="#FF5722"
+           android:layout_marginTop="10sp"
+           android:textColor="@color/white"
+           android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizzas"
+            android:background="#FF5722"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="broast"
+            android:background="#FF5722"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salads"
+            android:background="#FF5722"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shawarma"
+            android:background="#FF5722"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fingerchips"
+            android:background="#FF5722"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Dishes"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="10sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120sp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/bu4" />
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/bu3" />
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/bu5" />
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/ju6" />
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/bur" />
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/bu" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
